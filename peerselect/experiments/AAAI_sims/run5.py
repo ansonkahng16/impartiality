@@ -8,7 +8,7 @@ import itertools
 
 # hacky path update to import peerselect
 import sys
-# sys.path.insert(0, '/Users/akahng/Dropbox/RESEARCH/Procaccia/17-impartiality/peerselection-master/peerselect')
+sys.path.insert(0, '/Users/akahng/Dropbox/RESEARCH/Procaccia/17-impartiality/peerselection-master/peerselect')
 sys.path.insert(0, '/afs/andrew.cmu.edu/usr20/akahng/impartiality/peerselect')
 from peerselect import impartial_all as impartial
 from peerselect import profile_generator
